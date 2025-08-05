@@ -4,5 +4,5 @@ spring:
     drop-first: true
     change-log: classpath:db/changelog/db.changelog-master.yaml
     contexts:
-    - dev
-    - prod
+      - dev
+      - prod
